@@ -43,7 +43,7 @@ public class TestBase {
 			// driver = new InternetExplorerDriver();
 		}
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		driver.manage().timeouts().pageLoadTimeout(45, TimeUnit.SECONDS);
 		driver.manage().deleteAllCookies();
 		return driver;
