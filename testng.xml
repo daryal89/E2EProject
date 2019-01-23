@@ -31,5 +31,11 @@
 			<class name="com.E2EProject.RegistrationPageTest" />
 		</classes>
 	</test>
+	
+	<test name="Contacts page test">
+		<classes>
+			<class name="com.E2EProject.ContactPageTest" />
+		</classes>
+	</test>
 
 </suite>
