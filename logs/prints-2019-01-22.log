@@ -1,7 +1,7 @@
-13:40:15.981 [main] ERROR com.E2EProject.TestBase - Invalid email or password.
-13:45:54.903 [main] INFO  com.E2EProject.TestBase - Navigation bar is dispalyed
-13:46:00.497 [main] INFO  com.E2EProject.TestBase - Driver is initialized
-13:46:07.394 [main] INFO  com.E2EProject.TestBase - Navigated to landing page
-13:46:21.728 [main] INFO  com.E2EProject.TestBase - current url: http://www.qaclickacademy.com/
-13:46:25.161 [main] INFO  com.E2EProject.TestBase - text is: Non-Restricted User
-13:46:26.947 [main] ERROR com.E2EProject.TestBase - Invalid email or password.
+19:46:49.663 [main] INFO  com.E2EProject.TestBase - text is: general User
+19:46:51.299 [main] ERROR com.E2EProject.TestBase - Invalid email or password.
+19:46:53.852 [main] INFO  com.E2EProject.TestBase - Assertion Passed !!!
+19:46:59.857 [main] INFO  com.E2EProject.TestBase - Driver is initialized
+19:47:06.265 [main] INFO  com.E2EProject.TestBase - Navigated to landing page
+19:47:12.545 [main] INFO  com.E2EProject.TestBase - Successfully validated text message
+19:47:14.522 [main] INFO  com.E2EProject.TestBase - Navigated to landing page

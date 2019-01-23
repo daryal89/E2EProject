@@ -10,25 +10,54 @@ public class LandingPage {
 
 	public LandingPage(WebDriver driver) {
 		this.driver = driver;
-
 	}
-
-	By login = By.cssSelector("a[href*='sign_in']");
 
 	By title = By.cssSelector("div.text-center");
 
-	By navbar = By.cssSelector("ul.nav.navbar-nav.navbar-right");
+	By header = By.cssSelector("ul.nav.navbar-nav.navbar-right");
+
+	By register = By.cssSelector("a[href*='sign_up']");
 	
-
-	public WebElement getNavigationBar() {
-		return driver.findElement(navbar);
+	By signin = By.cssSelector("a[href*='sign_in']");
+	
+	By logo = By.cssSelector("img.img-responsive.logo");
+	
+	By youtubelogo = By.cssSelector("i.fa.fa-youtube.fa-lg");
+	
+	By fblogo = By.cssSelector("i.fa.fa-facebook.fa-lg");
+	
+	By allcourse = By.cssSelector("a.btn.btn-primary");
+	
+	
+	public WebElement checkViewAllCourseButton() {
+		return driver.findElement(allcourse);
 	}
-
+	
+	public WebElement checkyoutube() {
+		return driver.findElement(youtubelogo);
+	}
+	
+	public WebElement checkfblogo() {
+		return driver.findElement(fblogo);
+	}
+	
+	public WebElement checkLogo() {
+		return driver.findElement(logo);
+	}
+	
 	public WebElement getLogin() {
-		return driver.findElement(login);
+		return driver.findElement(signin);
 	}
 
 	public WebElement getTitle() {
 		return driver.findElement(title);
+	}
+
+	public WebElement getNavigationBar() {
+		return driver.findElement(header);
+	}
+
+	public WebElement getRegister() {
+		return driver.findElement(register);
 	}
 }

@@ -1,3 +1,1 @@
-13:46:28.646 [main] INFO  com.E2EProject.TestBase - current url: http://www.qaclickacademy.com/
-13:46:31.205 [main] INFO  com.E2EProject.TestBase - text is: null
-13:46:32.663 [main] ERROR com.E2EProject.TestBase - Invalid email or password.
+19:47:16.857 [main] INFO  com.E2EProject.TestBase - Assertion passed !!!

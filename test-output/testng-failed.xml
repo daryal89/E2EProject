@@ -1,19 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [QaClick Academy Suite]">
-  <listeners>
-    <listener class-name="com.E2EProject.Listeners"/>
-    <listener class-name="com.E2EProject.ExtentReporterNG"/>
-  </listeners>
-  <test thread-count="5" name="Validating Title of the Page(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.E2EProject.ValidateTitle">
+      <class name="com.E2EProject.ValidateNavigationBar">
         <methods>
-          <include name="tearDown"/>
           <include name="initialize"/>
-          <include name="validateAppTitle"/>
+          <include name="validateNavigationBar"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.E2EProject.ValidateTitle -->
+      </class> <!-- com.E2EProject.ValidateNavigationBar -->
     </classes>
-  </test> <!-- Validating Title of the Page(failed) -->
-</suite> <!-- Failed suite [QaClick Academy Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

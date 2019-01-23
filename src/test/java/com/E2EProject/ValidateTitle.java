@@ -33,8 +33,6 @@ public class ValidateTitle extends TestBase {
 
 		// Compare the text from the browser with actual text
 
-		System.out.println(l.getTitle().getText());
-
 		Assert.assertEquals(l.getTitle().getText(), "FEATURED COURSES");
 		log.info("Successfully validated text message");
 	}

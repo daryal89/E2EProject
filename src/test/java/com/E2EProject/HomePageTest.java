@@ -4,6 +4,7 @@ import java.io.IOException;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
@@ -21,6 +22,49 @@ public class HomePageTest extends TestBase {
 	public void initialize() throws IOException {
 		driver = initializeDriver();
 
+	}
+
+	@Test
+	public void ValidateQAClickLogo() {
+		driver.get(prop.getProperty("url"));
+		LandingPage l = new LandingPage(driver);
+		boolean b = l.checkLogo().isDisplayed();
+		Assert.assertTrue(b);
+		log.info("Assertion Passed !!!");
+		System.out.println("Assertion passed : " + b);
+
+	}
+
+	@Test
+	public void fbLogoDisplayed() {
+
+		driver.get(prop.getProperty("url"));
+		LandingPage l = new LandingPage(driver);
+		boolean b = l.checkfblogo().isDisplayed();
+		Assert.assertTrue(b);
+		log.info("Assertion Passed !!!");
+		System.out.println("Assertion passed : " + b);
+	}
+
+	@Test
+	public void youtubeLogoDisplayed() {
+		driver.get(prop.getProperty("url"));
+		LandingPage l = new LandingPage(driver);
+		boolean b = l.checkyoutube().isDisplayed();
+		Assert.assertTrue(b);
+		log.info("Assertion Passed !!!");
+		System.out.println("Assertion passed : " + b);
+	}
+
+	@Test
+	public void allCourseButtonDisplayed() {
+
+		driver.get(prop.getProperty("url"));
+		LandingPage l = new LandingPage(driver);
+		boolean b = l.checkViewAllCourseButton().isDisplayed();
+		Assert.assertTrue(b);
+		log.info("Assertion Passed !!!");
+		System.out.println("Assertion passed : " + b);
 	}
 
 	@Test(dataProvider = "getData")
@@ -52,7 +96,7 @@ public class HomePageTest extends TestBase {
 
 		// Rows stands for how many different data types test should run
 		// Column stands for how many values per each test
-		Object[][] data = new Object[2][3];
+		Object[][] data = new Object[4][3];
 
 		// 0th row
 		data[0][0] = "nonrestircteduser@qa.com";
@@ -61,9 +105,18 @@ public class HomePageTest extends TestBase {
 
 		// 1st row
 		data[1][0] = "restircteduser@qa.com";
-		data[1][1] = "123456";
-		data[0][2] = "Non-Restricted User";
+		data[1][1] = "abc123";
+		data[1][2] = "Non-Restricted User";
 
+		// 2nd row
+		data[2][0] = "Onetimeduser@qa.com";
+		data[2][1] = "abcdefgh";
+		data[2][2] = "Onetime User";
+
+		// 3rd data set
+		data[3][0] = "generaluser@qa.com";
+		data[3][1] = "abc123";
+		data[3][2] = "general User";
 		return data;
 	}
 

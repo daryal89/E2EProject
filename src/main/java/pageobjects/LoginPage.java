@@ -16,7 +16,7 @@ public class LoginPage {
 
 	By password = By.id("user_password");
 
-	By login = By.xpath("//input[@value='Log In']");
+	By login = By.cssSelector("input.btn.btn-primary.btn-md.login-button");
 	
 	By alert =By.cssSelector("div.alert.alert-danger");
 
