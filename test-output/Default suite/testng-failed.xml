@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.E2EProject.ValidateNavigationBar">
+      <class name="com.E2EProject.ContactPageTest">
         <methods>
-          <include name="initialize"/>
-          <include name="validateNavigationBar"/>
           <include name="tearDown"/>
+          <include name="validateContact"/>
+          <include name="initialize"/>
         </methods>
-      </class> <!-- com.E2EProject.ValidateNavigationBar -->
+      </class> <!-- com.E2EProject.ContactPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

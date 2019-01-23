@@ -28,6 +28,12 @@ public class LandingPage {
 	
 	By allcourse = By.cssSelector("a.btn.btn-primary");
 	
+	By contact = By.xpath("//a[@href='contact.php']");
+	
+	
+	public WebElement getContact() {
+		return driver.findElement(contact);
+	}
 	
 	public WebElement checkViewAllCourseButton() {
 		return driver.findElement(allcourse);

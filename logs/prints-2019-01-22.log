@@ -1,7 +1,7 @@
-19:46:49.663 [main] INFO  com.E2EProject.TestBase - text is: general User
-19:46:51.299 [main] ERROR com.E2EProject.TestBase - Invalid email or password.
-19:46:53.852 [main] INFO  com.E2EProject.TestBase - Assertion Passed !!!
-19:46:59.857 [main] INFO  com.E2EProject.TestBase - Driver is initialized
-19:47:06.265 [main] INFO  com.E2EProject.TestBase - Navigated to landing page
-19:47:12.545 [main] INFO  com.E2EProject.TestBase - Successfully validated text message
-19:47:14.522 [main] INFO  com.E2EProject.TestBase - Navigated to landing page
+22:00:01.146 [main] INFO  com.E2EProject.TestBase - Navigated to landing page
+22:00:30.749 [main] INFO  com.E2EProject.TestBase - Navigated to landing page
+22:20:04.805 [main] INFO  com.E2EProject.TestBase - Driver is initialized
+22:20:12.482 [main] INFO  com.E2EProject.TestBase - Navigated to landing page
+22:20:18.446 [main] INFO  com.E2EProject.TestBase - Navigated to landing page
+22:24:08.422 [main] INFO  com.E2EProject.TestBase - Driver is initialized
+22:24:14.609 [main] INFO  com.E2EProject.TestBase - Navigated to landing page
