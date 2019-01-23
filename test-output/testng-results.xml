@@ -1,29 +1,233 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="18" passed="18">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="20823" started-at="2019-01-23T03:24:03Z" finished-at="2019-01-23T03:24:24Z">
+  <suite name="QaClick Academy Suite" duration-ms="147774" started-at="2019-01-23T17:46:20Z" finished-at="2019-01-23T17:48:48Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="20823" started-at="2019-01-23T03:24:03Z" finished-at="2019-01-23T03:24:24Z">
-      <class name="com.E2EProject.ContactPageTest">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:com.E2EProject.ContactPageTest@128d2484]" name="initialize" is-config="true" duration-ms="4625" started-at="2019-01-23T03:24:03Z" finished-at="2019-01-23T03:24:08Z">
+    <test name="Validating Navigation bar" duration-ms="13630" started-at="2019-01-23T17:46:20Z" finished-at="2019-01-23T17:46:34Z">
+      <class name="com.E2EProject.ValidateNavigationBar">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.E2EProject.ValidateNavigationBar@7c7b252e]" name="initialize" is-config="true" duration-ms="11439" started-at="2019-01-23T17:46:20Z" finished-at="2019-01-23T17:46:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="createContact()[pri:0, instance:com.E2EProject.ContactPageTest@128d2484]" name="createContact" duration-ms="9468" started-at="2019-01-23T03:24:08Z" finished-at="2019-01-23T03:24:17Z">
+        <test-method status="PASS" signature="validateNavigationBar()[pri:0, instance:com.E2EProject.ValidateNavigationBar@7c7b252e]" name="validateNavigationBar" duration-ms="67" started-at="2019-01-23T17:46:32Z" finished-at="2019-01-23T17:46:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNavigationBar -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.E2EProject.ValidateNavigationBar@7c7b252e]" name="tearDown" is-config="true" duration-ms="2096" started-at="2019-01-23T17:46:32Z" finished-at="2019-01-23T17:46:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.E2EProject.ValidateNavigationBar -->
+    </test> <!-- Validating Navigation bar -->
+    <test name="Validating Title of the Page" duration-ms="12132" started-at="2019-01-23T17:46:34Z" finished-at="2019-01-23T17:46:46Z">
+      <class name="com.E2EProject.ValidateTitle">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.E2EProject.ValidateTitle@51399530]" name="initialize" is-config="true" duration-ms="9965" started-at="2019-01-23T17:46:34Z" finished-at="2019-01-23T17:46:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="validateAppTitle()[pri:0, instance:com.E2EProject.ValidateTitle@51399530]" name="validateAppTitle" duration-ms="46" started-at="2019-01-23T17:46:44Z" finished-at="2019-01-23T17:46:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAppTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.E2EProject.ValidateTitle@51399530]" name="tearDown" is-config="true" duration-ms="2119" started-at="2019-01-23T17:46:44Z" finished-at="2019-01-23T17:46:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.E2EProject.ValidateTitle -->
+    </test> <!-- Validating Title of the Page -->
+    <test name="validating HomePage test" duration-ms="54911" started-at="2019-01-23T17:46:46Z" finished-at="2019-01-23T17:47:41Z">
+      <class name="com.E2EProject.HomePageTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.E2EProject.HomePageTest@175c2241]" name="initialize" is-config="true" duration-ms="3576" started-at="2019-01-23T17:46:46Z" finished-at="2019-01-23T17:46:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="ValidateQAClickLogo()[pri:0, instance:com.E2EProject.HomePageTest@175c2241]" name="ValidateQAClickLogo" duration-ms="6020" started-at="2019-01-23T17:46:50Z" finished-at="2019-01-23T17:46:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateQAClickLogo -->
+        <test-method status="PASS" signature="allCourseButtonDisplayed()[pri:0, instance:com.E2EProject.HomePageTest@175c2241]" name="allCourseButtonDisplayed" duration-ms="4777" started-at="2019-01-23T17:46:56Z" finished-at="2019-01-23T17:47:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allCourseButtonDisplayed -->
+        <test-method status="PASS" signature="fbLogoDisplayed()[pri:0, instance:com.E2EProject.HomePageTest@175c2241]" name="fbLogoDisplayed" duration-ms="5051" started-at="2019-01-23T17:47:01Z" finished-at="2019-01-23T17:47:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fbLogoDisplayed -->
+        <test-method status="PASS" signature="validateHomePage(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.E2EProject.HomePageTest@175c2241]" name="validateHomePage" duration-ms="9594" started-at="2019-01-23T17:47:06Z" data-provider="getData" finished-at="2019-01-23T17:47:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonrestircteduser@qa.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Restricted User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHomePage -->
+        <test-method status="PASS" signature="validateHomePage(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.E2EProject.HomePageTest@175c2241]" name="validateHomePage" duration-ms="7308" started-at="2019-01-23T17:47:15Z" data-provider="getData" finished-at="2019-01-23T17:47:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restircteduser@qa.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Non-Restricted User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHomePage -->
+        <test-method status="PASS" signature="validateHomePage(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.E2EProject.HomePageTest@175c2241]" name="validateHomePage" duration-ms="4612" started-at="2019-01-23T17:47:22Z" data-provider="getData" finished-at="2019-01-23T17:47:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Onetimeduser@qa.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abcdefgh]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Onetime User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHomePage -->
+        <test-method status="PASS" signature="validateHomePage(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.E2EProject.HomePageTest@175c2241]" name="validateHomePage" duration-ms="6514" started-at="2019-01-23T17:47:27Z" data-provider="getData" finished-at="2019-01-23T17:47:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[generaluser@qa.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[general User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHomePage -->
+        <test-method status="PASS" signature="youtubeLogoDisplayed()[pri:0, instance:com.E2EProject.HomePageTest@175c2241]" name="youtubeLogoDisplayed" duration-ms="5316" started-at="2019-01-23T17:47:34Z" finished-at="2019-01-23T17:47:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- youtubeLogoDisplayed -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.E2EProject.HomePageTest@175c2241]" name="tearDown" is-config="true" duration-ms="2125" started-at="2019-01-23T17:47:39Z" finished-at="2019-01-23T17:47:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.E2EProject.HomePageTest -->
+    </test> <!-- validating HomePage test -->
+    <test name="Registratin page test" duration-ms="19328" started-at="2019-01-23T17:47:41Z" finished-at="2019-01-23T17:48:00Z">
+      <class name="com.E2EProject.RegistrationPageTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.E2EProject.RegistrationPageTest@6c6cb480]" name="initialize" is-config="true" duration-ms="3616" started-at="2019-01-23T17:47:41Z" finished-at="2019-01-23T17:47:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="getRegister()[pri:0, instance:com.E2EProject.RegistrationPageTest@6c6cb480]" name="getRegister" duration-ms="12011" started-at="2019-01-23T17:47:45Z" finished-at="2019-01-23T17:47:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getRegister -->
+        <test-method status="PASS" signature="validateSignUpButtonDisplayed()[pri:0, instance:com.E2EProject.RegistrationPageTest@6c6cb480]" name="validateSignUpButtonDisplayed" duration-ms="3576" started-at="2019-01-23T17:47:57Z" finished-at="2019-01-23T17:48:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSignUpButtonDisplayed -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.E2EProject.RegistrationPageTest@6c6cb480]" name="tearDown" is-config="true" duration-ms="124" started-at="2019-01-23T17:48:00Z" finished-at="2019-01-23T17:48:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.E2EProject.RegistrationPageTest -->
+    </test> <!-- Registratin page test -->
+    <test name="Contacts page test" duration-ms="20642" started-at="2019-01-23T17:48:00Z" finished-at="2019-01-23T17:48:21Z">
+      <class name="com.E2EProject.ContactPageTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.E2EProject.ContactPageTest@34e9fd99]" name="initialize" is-config="true" duration-ms="3799" started-at="2019-01-23T17:48:00Z" finished-at="2019-01-23T17:48:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="createContact()[pri:0, instance:com.E2EProject.ContactPageTest@34e9fd99]" name="createContact" duration-ms="14331" started-at="2019-01-23T17:48:04Z" finished-at="2019-01-23T17:48:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createContact -->
-        <test-method status="PASS" signature="validateContact()[pri:0, instance:com.E2EProject.ContactPageTest@128d2484]" name="validateContact" duration-ms="6607" started-at="2019-01-23T03:24:17Z" finished-at="2019-01-23T03:24:24Z">
+        <test-method status="PASS" signature="validateContact()[pri:0, instance:com.E2EProject.ContactPageTest@34e9fd99]" name="validateContact" duration-ms="2391" started-at="2019-01-23T17:48:19Z" finished-at="2019-01-23T17:48:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateContact -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.E2EProject.ContactPageTest@128d2484]" name="tearDown" is-config="true" duration-ms="90" started-at="2019-01-23T03:24:24Z" finished-at="2019-01-23T03:24:24Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.E2EProject.ContactPageTest@34e9fd99]" name="tearDown" is-config="true" duration-ms="107" started-at="2019-01-23T17:48:21Z" finished-at="2019-01-23T17:48:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.E2EProject.ContactPageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Contacts page test -->
+    <test name="Facebook landing page Test" duration-ms="13020" started-at="2019-01-23T17:48:21Z" finished-at="2019-01-23T17:48:34Z">
+      <class name="fbtestcases.FbLandingPageTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:fbtestcases.FbLandingPageTest@6025e1b6]" name="initialize" is-config="true" duration-ms="3713" started-at="2019-01-23T17:48:21Z" finished-at="2019-01-23T17:48:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="loginPage()[pri:0, instance:fbtestcases.FbLandingPageTest@6025e1b6]" name="loginPage" duration-ms="4824" started-at="2019-01-23T17:48:25Z" finished-at="2019-01-23T17:48:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPage -->
+        <test-method status="PASS" signature="validateFBLogo()[pri:0, instance:fbtestcases.FbLandingPageTest@6025e1b6]" name="validateFBLogo" duration-ms="1981" started-at="2019-01-23T17:48:30Z" finished-at="2019-01-23T17:48:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFBLogo -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:fbtestcases.FbLandingPageTest@6025e1b6]" name="tearDown" is-config="true" duration-ms="2498" started-at="2019-01-23T17:48:32Z" finished-at="2019-01-23T17:48:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- fbtestcases.FbLandingPageTest -->
+    </test> <!-- Facebook landing page Test -->
+    <test name="Facebook Creatpage Test" duration-ms="13850" started-at="2019-01-23T17:48:34Z" finished-at="2019-01-23T17:48:48Z">
+      <class name="fbtestcases.CreatePageTest">
+        <test-method status="PASS" signature="initilize()[pri:0, instance:fbtestcases.CreatePageTest@7586beff]" name="initilize" is-config="true" duration-ms="3677" started-at="2019-01-23T17:48:34Z" finished-at="2019-01-23T17:48:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilize -->
+        <test-method status="PASS" signature="checkfbJoinlink()[pri:0, instance:fbtestcases.CreatePageTest@7586beff]" name="checkfbJoinlink" duration-ms="4493" started-at="2019-01-23T17:48:38Z" finished-at="2019-01-23T17:48:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkfbJoinlink -->
+        <test-method status="PASS" signature="validateCreatePagelogo()[pri:0, instance:fbtestcases.CreatePageTest@7586beff]" name="validateCreatePagelogo" duration-ms="3537" started-at="2019-01-23T17:48:42Z" finished-at="2019-01-23T17:48:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreatePagelogo -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:fbtestcases.CreatePageTest@7586beff]" name="tearDown" is-config="true" duration-ms="2140" started-at="2019-01-23T17:48:46Z" finished-at="2019-01-23T17:48:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- fbtestcases.CreatePageTest -->
+    </test> <!-- Facebook Creatpage Test -->
+  </suite> <!-- QaClick Academy Suite -->
 </testng-results>

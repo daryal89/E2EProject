@@ -5,26 +5,26 @@
     <listener class-name="com.E2EProject.Listeners"/>
     <listener class-name="com.E2EProject.ExtentReporterNG"/>
   </listeners>
-  <test thread-count="5" name="Validating Navigation bar(failed)">
+  <test thread-count="5" name="Registratin page test(failed)">
     <classes>
-      <class name="com.E2EProject.ValidateNavigationBar">
+      <class name="com.E2EProject.RegistrationPageTest">
         <methods>
-          <include name="initialize"/>
-          <include name="validateNavigationBar"/>
           <include name="tearDown"/>
+          <include name="getRegister"/>
+          <include name="initialize"/>
         </methods>
-      </class> <!-- com.E2EProject.ValidateNavigationBar -->
+      </class> <!-- com.E2EProject.RegistrationPageTest -->
     </classes>
-  </test> <!-- Validating Navigation bar(failed) -->
-  <test thread-count="5" name="validating HomePage test(failed)">
+  </test> <!-- Registratin page test(failed) -->
+  <test thread-count="5" name="Contacts page test(failed)">
     <classes>
-      <class name="com.E2EProject.HomePageTest">
+      <class name="com.E2EProject.ContactPageTest">
         <methods>
-          <include name="validateHomePage" invocation-numbers="2 3"/>
-          <include name="initialize"/>
           <include name="tearDown"/>
+          <include name="initialize"/>
+          <include name="createContact"/>
         </methods>
-      </class> <!-- com.E2EProject.HomePageTest -->
+      </class> <!-- com.E2EProject.ContactPageTest -->
     </classes>
-  </test> <!-- validating HomePage test(failed) -->
+  </test> <!-- Contacts page test(failed) -->
 </suite> <!-- Failed suite [QaClick Academy Suite] -->

@@ -37,5 +37,17 @@
 			<class name="com.E2EProject.ContactPageTest" />
 		</classes>
 	</test>
+	
+	<test name="Facebook landing page Test">
+		<classes>
+			<class name="fbtestcases.FbLandingPageTest" />
+		</classes>
+	</test>
+	
+	<test name="Facebook Creatpage Test">
+		<classes>
+			<class name="fbtestcases.CreatePageTest" />
+		</classes>
+	</test>
 
 </suite>

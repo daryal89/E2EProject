@@ -1,1 +1,4 @@
-22:24:23.822 [main] INFO  com.E2EProject.TestBase - Navigated to landing page
+12:48:25.388 [main] INFO  com.E2EProject.TestBase - Driver is initialized !!!
+12:48:38.427 [main] INFO  com.E2EProject.TestBase - Driver initialized !!
+12:48:42.921 [main] INFO  com.E2EProject.TestBase - validation passed!!!
+12:48:46.459 [main] INFO  com.E2EProject.TestBase - Assertion passed!!!
