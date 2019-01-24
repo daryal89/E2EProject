@@ -56,7 +56,7 @@ public class DBConnectionSalesForceLoginTest extends TestBase {
 		driver.get(url);
 		SalesForceLoginPage sf = new SalesForceLoginPage(driver);
 		boolean b = sf.getlogo().isSelected();
-		Assert.assertFalse(b);
+		Assert.assertFalse(b );
 	}
 
 	@Test
