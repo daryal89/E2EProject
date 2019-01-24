@@ -3,14 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="fbtestcases.CreatePageTest">
+      <class name="dbtestpackage.DBConnectionSalesForceLoginTest">
         <methods>
-          <include name="checkfbJoinlink"/>
-          <include name="initilize"/>
-          <include name="validateCreatePagelogo"/>
           <include name="tearDown"/>
+          <include name="initialize"/>
+          <include name="salesForceLogin"/>
         </methods>
-      </class> <!-- fbtestcases.CreatePageTest -->
+      </class> <!-- dbtestpackage.DBConnectionSalesForceLoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

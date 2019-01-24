@@ -2,3 +2,6 @@
 12:48:38.427 [main] INFO  com.E2EProject.TestBase - Driver initialized !!
 12:48:42.921 [main] INFO  com.E2EProject.TestBase - validation passed!!!
 12:48:46.459 [main] INFO  com.E2EProject.TestBase - Assertion passed!!!
+17:29:19.093 [main] INFO  com.E2EProject.TestBase - driver is initialized 
+17:31:39.449 [main] INFO  com.E2EProject.TestBase - driver is initialized 
+17:42:00.519 [main] INFO  com.E2EProject.TestBase - driver is initialized 
