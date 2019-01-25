@@ -49,5 +49,9 @@
 			<class name="fbtestcases.CreatePageTest" />
 		</classes>
 	</test>
-
+	<test name="Salesforce Database Test">
+		<classes>
+			<class name="dbtestpackage.DBConnectionSalesForceLoginTest" />
+		</classes>
+	</test>
 </suite>
