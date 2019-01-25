@@ -50,10 +50,4 @@
 		</classes>
 	</test>
 
-	<test name="Sales force loginpage Test">
-		<classes>
-			<class name="dbtestpackageDBConnectionSalesForceLoginTest" />
-		</classes>
-	</test>
-
 </suite>
