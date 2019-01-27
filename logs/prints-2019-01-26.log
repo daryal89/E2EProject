@@ -1,0 +1,6 @@
+23:21:07.632 [main] INFO  com.E2EProject.TestBase - Validated createpagelogo successfully
+23:45:10.192 [main] INFO  seleniumgridTest.GridTest - joinlink validation passed!!!
+23:45:11.373 [main] INFO  seleniumgridTest.GridTest - Driver is initialized!!!
+23:45:15.305 [main] INFO  seleniumgridTest.GridTest - Driver is initialized!!!
+23:45:31.709 [main] INFO  seleniumgridTest.GridTest - successfully logged in!
+23:45:36.638 [main] INFO  seleniumgridTest.GridTest - Validated createpagelogo successfully
